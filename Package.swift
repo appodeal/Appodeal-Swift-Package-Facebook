@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/facebook/facebook-ios-sdk", exact: "18.0.3"),
+        .package(url: "https://github.com/facebook/facebook-ios-sdk", exact: "18.1.1"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealFacebookAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealFacebookAdapter/18.0.3.1/8998d62f3783/AppodealFacebookAdapter.xcframework.zip",
-            checksum: "8998d62f3783d71a5b8675d88e10861723f42b6e31b9d6edb75e8d22121995dd"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealFacebookAdapter/18.1.1.0/863c775fa777/AppodealFacebookAdapter.xcframework.zip",
+            checksum: "863c775fa77753e07647da14381137edc137328d81877c98d53415539c528304"
         ),
 
     ]
